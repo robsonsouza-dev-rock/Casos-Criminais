@@ -18,4 +18,4 @@ Os elementos que estão sendo usados são:
  O position para uma possição.
  O text-decoration para decorar o texto.
 # JS: Há algum recurso Javascript?
-O Javascript não usei, não sei os códigos certos do Javascript.
+O Javascript não usei, não sei os códigos certos para usar nesse caso.
