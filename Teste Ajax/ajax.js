@@ -19,6 +19,9 @@ const url = "https://jsonplaceholder.typicode.com/todos/1"
         const data = await res.json();
         output.textContent = JSON.stringify(data, null, 2); 
       } catch (err) {
-        output.textContent = 
+        output.textContent = "Erro: " + err.message;
+        output.classList.add("error");
+      } finally {
+        setLoading(false);
       }
-    })
+    });
