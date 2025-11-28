@@ -18,7 +18,7 @@ concurrency:
 jobs:
   deploy:
     name: deploy to Github pages 
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     outputs:
       page_url: ${{ steps.deployment.outputs.page_url }}
